@@ -3,7 +3,7 @@
 Custom Chat GPT is a chatbot application powered by OpenAI's GPT-X language model. It allows users to have interactive conversations with the chatbot and receive AI-generated responses.
 
 
-![Alt text](image.png)
+![Alt text](image-1.png)
 
 ## Installation
 
