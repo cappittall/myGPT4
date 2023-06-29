@@ -79,7 +79,7 @@ def main(chat_id):
         model = st.selectbox('Select the model', models) 
         def change_title_name(*args):
             print(args)
-        if st.sidebar.button(f'Start new chat {chat_id[:3]}...{chat_id[-3:]}'):
+        if st.sidebar.button(f'Start New Chat - Chat id: ({chat_id[:3]}...{chat_id[-3:]})'):
             st.session_state.messages = [SystemMessage(content="You are a helpful assistant.")]
 
             chat_id = uuid.uuid4().hex 
