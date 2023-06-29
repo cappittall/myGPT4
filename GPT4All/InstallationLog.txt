@@ -1,0 +1,183 @@
+************************************* Invoked: Cmt Haz 17 12:40:12 2023
+[0] Arguments: ./gpt4all-installer-linux.run
+[1] Operations sanity check succeeded.
+[2] Using metadata cache from "/home/cappittall/.cache/qt-installer-framework/9c11e018-d3aa-3c3a-9118-829c9ab85b1c"
+[2] Found 0 cached items.
+[2] Language: en-US
+[7356] Fetching latest update information...
+[8335] Retrieving meta information from remote repository...
+[9429] Extracting meta information...
+[9430] Updating local cache with 1 new items...
+[9435] Loading component scripts...
+[16036] Warning: Only C and default locale supported with the posix collation implementation
+[16036] Warning: Only C and default locale supported with the posix collation implementation
+[16036] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[16036] Warning: Numeric mode unsupported in the posix collation implementation
+[16108] Warning: Only C and default locale supported with the posix collation implementation
+[16108] Warning: Only C and default locale supported with the posix collation implementation
+[16108] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[16108] Warning: Numeric mode unsupported in the posix collation implementation
+[18832] Warning: Only C and default locale supported with the posix collation implementation
+[18832] Warning: Only C and default locale supported with the posix collation implementation
+[18832] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[18832] Warning: Numeric mode unsupported in the posix collation implementation
+[20668] Warning: Only C and default locale supported with the posix collation implementation
+[20668] Warning: Only C and default locale supported with the posix collation implementation
+[20668] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[20668] Warning: Numeric mode unsupported in the posix collation implementation
+[27460] Warning: Only C and default locale supported with the posix collation implementation
+[27460] Warning: Only C and default locale supported with the posix collation implementation
+[27460] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[27460] Warning: Numeric mode unsupported in the posix collation implementation
+[35140] Warning: Only C and default locale supported with the posix collation implementation
+[35140] Warning: Only C and default locale supported with the posix collation implementation
+[35140] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[35140] Warning: Numeric mode unsupported in the posix collation implementation
+[37501] Warning: Only C and default locale supported with the posix collation implementation
+[37501] Warning: Only C and default locale supported with the posix collation implementation
+[37501] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[37501] Warning: Numeric mode unsupported in the posix collation implementation
+[39273] Warning: Only C and default locale supported with the posix collation implementation
+[39273] Warning: Only C and default locale supported with the posix collation implementation
+[39273] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[39273] Warning: Numeric mode unsupported in the posix collation implementation
+[72401] Warning: Only C and default locale supported with the posix collation implementation
+[72401] Warning: Only C and default locale supported with the posix collation implementation
+[72401] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[72401] Warning: Numeric mode unsupported in the posix collation implementation
+[79190] Warning: Only C and default locale supported with the posix collation implementation
+[79190] Warning: Only C and default locale supported with the posix collation implementation
+[79190] Warning: Case insensitive sorting unsupported in the posix collation implementation
+[79190] Warning: Numeric mode unsupported in the posix collation implementation
+[97722] Selected components without dependencies:
+gpt4all
+[97723] Installation space required: "630.88 MB" Temporary space required: "333.11 MB" Local repository size: "0.00 bytes"
+[97725] Cache and install directories are on the same volume. Volume mount point: "/" Free space available: "147.49 GB"
+[99258] backup  operation: Mkdir
+[99258] 	- arguments: /home/cappittall/Documents/myGPT4/GPT4All
+[99258] Done
+[99258] perform  operation: Mkdir
+[99258] 	- arguments: /home/cappittall/Documents/myGPT4/GPT4All
+[99258] Done
+[99258] Preparing the installation...
+[99258] Install size: 1 components
+[99258] Downloading packages...
+[99259] Downloading archive "2.4.8bin.7z.sha1" for component gpt4all.
+[100196] Downloading archive "2.4.8bin.7z" for component gpt4all.
+[101823] Downloading archive "2.4.8lib.7z.sha1" for component gpt4all.
+[102689] Downloading archive "2.4.8lib.7z" for component gpt4all.
+[126307] Downloading archive "2.4.8plugins.7z.sha1" for component gpt4all.
+[127315] Downloading archive "2.4.8plugins.7z" for component gpt4all.
+[128862] Downloading archive "2.4.8qml.7z.sha1" for component gpt4all.
+[129572] Downloading archive "2.4.8qml.7z" for component gpt4all.
+[153053] Downloading archive "2.4.8share.7z.sha1" for component gpt4all.
+[153979] Downloading archive "2.4.8share.7z" for component gpt4all.
+[155061] Downloading archive "2.4.8content.7z.sha1" for component gpt4all.
+[155681] Downloading archive "2.4.8content.7z" for component gpt4all.
+[156583] Preparing to unpack components...
+[156587] backup gpt4all concurrent operation: Extract
+[156587] 	- arguments: installer://gpt4all/2.4.8bin.7z, /home/cappittall/Documents/myGPT4/GPT4All
+[156587] Started
+[156587] backup gpt4all concurrent operation: Extract
+[156587] 	- arguments: installer://gpt4all/2.4.8qml.7z, /home/cappittall/Documents/myGPT4/GPT4All
+[156587] Started
+[156589] backup gpt4all concurrent operation: Extract
+[156589] 	- arguments: installer://gpt4all/2.4.8lib.7z, /home/cappittall/Documents/myGPT4/GPT4All
+[156589] Started
+[156589] backup gpt4all concurrent operation: Extract
+[156589] 	- arguments: installer://gpt4all/2.4.8plugins.7z, /home/cappittall/Documents/myGPT4/GPT4All
+[156589] Started
+[156589] backup gpt4all concurrent operation: Extract
+[156589] 	- arguments: installer://gpt4all/2.4.8content.7z, /home/cappittall/Documents/myGPT4/GPT4All
+[156589] Started
+[156589] backup gpt4all concurrent operation: Extract
+[156589] 	- arguments: installer://gpt4all/2.4.8share.7z, /home/cappittall/Documents/myGPT4/GPT4All
+[156589] Started
+[161222] Unpacking components...
+[161223] perform gpt4all concurrent operation: Extract
+[161223] 	- arguments: installer://gpt4all/2.4.8qml.7z, /home/cappittall/Documents/myGPT4/GPT4All
+[161223] Started
+[161223] perform gpt4all concurrent operation: Extract
+[161223] 	- arguments: installer://gpt4all/2.4.8lib.7z, /home/cappittall/Documents/myGPT4/GPT4All
+[161223] Started
+[161223] perform gpt4all concurrent operation: Extract
+[161223] 	- arguments: installer://gpt4all/2.4.8plugins.7z, /home/cappittall/Documents/myGPT4/GPT4All
+[161223] Started
+[161223] perform gpt4all concurrent operation: Extract
+[161223] 	- arguments: installer://gpt4all/2.4.8bin.7z, /home/cappittall/Documents/myGPT4/GPT4All
+[161223] Started
+[161223] perform gpt4all concurrent operation: Extract
+[161223] 	- arguments: installer://gpt4all/2.4.8share.7z, /home/cappittall/Documents/myGPT4/GPT4All
+[161223] Started
+[161224] perform gpt4all concurrent operation: Extract
+[161224] 	- arguments: installer://gpt4all/2.4.8content.7z, /home/cappittall/Documents/myGPT4/GPT4All
+[161224] Started
+[170800] Installing component gpt4all
+[170801] backup gpt4all operation: CreateDesktopEntry
+[170801] 	- arguments: /home/cappittall/Desktop/GPT4All.desktop, Type=Application
+Terminal=false
+Exec="/home/cappittall/Documents/myGPT4/GPT4All/bin/chat"
+Name=GPT4All
+Icon=/home/cappittall/Documents/myGPT4/GPT4All/logo-48.png
+Name[en_US]=GPT4All
+[170801] Done
+[170801] perform gpt4all operation: CreateDesktopEntry
+[170801] 	- arguments: /home/cappittall/Desktop/GPT4All.desktop, Type=Application
+Terminal=false
+Exec="/home/cappittall/Documents/myGPT4/GPT4All/bin/chat"
+Name=GPT4All
+Icon=/home/cappittall/Documents/myGPT4/GPT4All/logo-48.png
+Name[en_US]=GPT4All
+[170802] Done
+[170802] backup gpt4all operation: License
+[170802] 	- arguments:
+[170802] Done
+[170802] perform gpt4all operation: License
+[170802] 	- arguments:
+[170802] Done
+[170806] Writing maintenance tool: "/home/cappittall/Documents/myGPT4/GPT4All/maintenancetool.new"
+[170806] Writing maintenance tool.
+[170922] Wrote permissions for maintenance tool.
+[170985] Maintenance tool hard restart: false.
+[170987] Installation finished!
+************************************* Invoked: Cmt Haz 17 16:28:59 2023
+[0] Arguments: /home/cappittall/Documents/myGPT4/GPT4All/bin/../maintenancetool
+[7] Operations sanity check succeeded.
+[8] Using metadata cache from "/home/cappittall/.cache/qt-installer-framework/9c11e018-d3aa-3c3a-9118-829c9ab85b1c"
+[8] Found 1 cached items.
+[8] Language: en-US
+[8996] Fetching latest update information...
+************************************* Invoked: Cmt Haz 17 16:51:42 2023
+[0] Arguments: /home/cappittall/Documents/myGPT4/GPT4All/bin/../maintenancetool
+[22] Operations sanity check succeeded.
+[25] Using metadata cache from "/home/cappittall/.cache/qt-installer-framework/9c11e018-d3aa-3c3a-9118-829c9ab85b1c"
+[25] Found 1 cached items.
+[25] Language: en-US
+[6132] Fetching latest update information...
+[7105] Loading component scripts...
+[16325] cancelInstallation : GPT4All Installer Question : Do you want to quit the maintenance application? Yes|No
+************************************* Invoked: Cmt Haz 17 22:49:48 2023
+[0] Arguments: /home/cappittall/Documents/myGPT4/GPT4All/bin/../maintenancetool
+[13] Operations sanity check succeeded.
+[17] Using metadata cache from "/home/cappittall/.cache/qt-installer-framework/9c11e018-d3aa-3c3a-9118-829c9ab85b1c"
+[17] Found 1 cached items.
+[17] Language: en-US
+************************************* Invoked: Paz Haz 18 15:55:18 2023
+[0] Arguments: /home/cappittall/Documents/myGPT4/GPT4All/bin/../maintenancetool
+[30] Operations sanity check succeeded.
+[35] Using metadata cache from "/home/cappittall/.cache/qt-installer-framework/9c11e018-d3aa-3c3a-9118-829c9ab85b1c"
+[35] Found 1 cached items.
+[35] Language: en-US
+[5891] Fetching latest update information...
+[7513] Loading component scripts...
+[28460] cancelInstallation : GPT4All Installer Question : Do you want to quit the maintenance application? Yes|No
+************************************* Invoked: Çar Haz 21 08:11:16 2023
+[0] Arguments: /home/cappittall/Documents/myGPT4/GPT4All/bin/../maintenancetool
+[31] Operations sanity check succeeded.
+[36] Using metadata cache from "/home/cappittall/.cache/qt-installer-framework/9c11e018-d3aa-3c3a-9118-829c9ab85b1c"
+[36] Found 1 cached items.
+[36] Language: en-US
+[7089] Fetching latest update information...
+[15654] Fetching latest update information...
+[15668] Loading component scripts...
+[34660] cancelInstallation : GPT4All Installer Question : Do you want to quit the maintenance application? Yes|No
