@@ -71,19 +71,15 @@ def main(chat_id):
     global chat_list, chat_list_path, llm
         
     init()        
-    
-
-        
     with st.sidebar:
         temperature = st.slider('Temperature', 0.,1.,0.8,0.1)
         model = st.selectbox('Select the model', models) 
-        def change_title_name(*args):
-            print(args)
+
         if st.sidebar.button(f'Start New Chat - Chat id: ({chat_id[:3]}...{chat_id[-3:]})'):
             st.session_state.messages = [SystemMessage(content="You are a helpful assistant.")]
-
             chat_id = uuid.uuid4().hex 
-            # Display chat titles and delete icons
+            
+        # Display chat titles and delete icons
         for c_id, chat_title in reversed(chat_list.items()):
             empt = st.empty()
             col1, col2, col3 = empt.columns([7, 1.5, 1.5])
