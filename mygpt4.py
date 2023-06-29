@@ -49,14 +49,9 @@ def init():
 
 def get_chat_title(user_input, llm):
     
-    prompt = f"""
-    This is a OpenAI chat session. And As you are a helpfull assistant, 
-    Give a chat title from user's first question : 
-    - {user_input}
-    """
-    print(prompt, '\n', llm)
+    prompt = f"Write me a chat title from the first question of user :  {user_input}"
     response = llm(prompt)
-    print(response)
+
     if "\nChat Title:" in response: 
         response= response.replace('Chat Title:', '')
     return response
@@ -69,7 +64,6 @@ def save_chat_list(chat_list):
 def main(chat_id):
     
     global chat_list, chat_list_path, llm
-        
     init()        
     with st.sidebar:
         temperature = st.slider('Temperature', 0.,1.,0.8,0.1)
