@@ -12,6 +12,12 @@ from langchain.schema import (SystemMessage, HumanMessage, AIMessage)
 from langchain import OpenAI, PromptTemplate, LLMChain 
 
 
+
+try:
+    os.environ['OPENAI_API_KEY'] = st.secrets["openai"]
+except:
+    load_env()
+    
 models =reversed(list(read_models()))
 
 chat_list = {}
