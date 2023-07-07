@@ -42,9 +42,7 @@ if os.path.isfile(chat_list_path):
         chat_list = json.load(file)
     
 def init():
-    # Load the OpenAI API key from the environment variable
-    load_env()
-    
+    # Load the OpenAI API key from the environment variable    
     # setup streamlit page
     st.set_page_config(
         page_title=' My own Chat GPT  ',
