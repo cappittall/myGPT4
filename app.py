@@ -16,7 +16,7 @@ from langchain import OpenAI, PromptTemplate, LLMChain
 try:
     os.environ['OPENAI_API_KEY'] = st.secrets["openai"]
 except:
-    load_env()
+    pass
     
 models =reversed(list(read_models()))
 
